@@ -7,12 +7,14 @@
 
 }
 
+
 body {
     background-color: var(--white);
     font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
 
-
-    
+    max-width: 1600px;
 }
 
 footer {
@@ -30,7 +32,7 @@ button {
     letter-spacing: 0.03em;
 }
 
-/* колір кнопки головної при ховері 188CE8 */
+/* цвет кнопки гпавной при ховере 188CE8 */
 
 button:hover,
 button:focus {
@@ -83,7 +85,8 @@ body a {
     color: var(--white);
     background-color: var(--dark-background);
     text-align: center;
-  
+    width: 1600px;
+    height: 600px;
 
 }
 
@@ -92,21 +95,18 @@ body a {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 1.36em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--hero-txt-color);
-    
+    text-align: center;
 }
 
 .button-title {
-    font-family: inherit;
     background-color: var(--blue);
     color: var(--white);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 30px;
     letter-spacing: 0.06em;
-    cursor: pointer;
 }
 
 .button-title:hover,
@@ -114,7 +114,7 @@ body a {
     background-color: rgba(24, 140, 232, 1);
 }
 
-/* прибираєм всі маркери у списках */
+/* убираем маркеры в списках */
 ul {
     list-style: none;
 }
@@ -187,8 +187,7 @@ footer a {
 .foorer-mail,
 .foorer-phone {
     color: rgba(255, 255, 255, 0.6);
-    }
-
+}
 
 
 
@@ -219,3 +218,4 @@ footer a {
     flex-flow: row wrap;
     width: 1170px;
     height: 1360px;
+}
