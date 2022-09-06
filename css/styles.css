@@ -10,10 +10,9 @@
 body {
     background-color: var(--white);
     font-family: roboto, sans-serif;
-    letter-spacing: 0.03em;
-    line-height: 1.2;
 
-    max-width: 1600px;
+
+    
 }
 
 footer {
@@ -84,8 +83,7 @@ body a {
     color: var(--white);
     background-color: var(--dark-background);
     text-align: center;
-    width: 1600px;
-    height: 600px;
+  
 
 }
 
@@ -94,18 +92,21 @@ body a {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
+    letter-spacing: 1.36em;
     text-transform: uppercase;
-    text-align: center;
+    color: var(--hero-txt-color);
+    
 }
 
 .button-title {
+    font-family: inherit;
     background-color: var(--blue);
     color: var(--white);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button-title:hover,
